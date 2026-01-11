@@ -85,7 +85,7 @@ sbt clean compile
 spark-submit --class com.example.FlightAnalyzer target/scala-2.13/flight-analyzer.jar
 
 spark-submit \
-  --class jobs.FlightAnalyzer \
+  --class com.example.FlightAnalyzer \
   --master local[*] \
   target/scala-2.13/flights-analyzer.jar
   
